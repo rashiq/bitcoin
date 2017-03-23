@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 package com.bitcoin.presentation.view.mainview;
 
 import android.support.annotation.NonNull;
