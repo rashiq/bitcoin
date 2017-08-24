@@ -1,13 +1,13 @@
 package com.bitcoin.domain.interactor;
 
-import com.bitcoin.domain.repository.BitcoinDataRepository;
+import com.bitcoin.domain.repository.BitcoinRepository;
 import javax.inject.Inject;
 import rx.Observable;
 
 public class LoadBitcoinPriceUseCase extends UseCase {
-  private BitcoinDataRepository repository;
+  private BitcoinRepository repository;
 
-  @Inject public LoadBitcoinPriceUseCase(BitcoinDataRepository repository) {
+  @Inject public LoadBitcoinPriceUseCase(BitcoinRepository repository) {
     this.repository = repository;
   }
 
